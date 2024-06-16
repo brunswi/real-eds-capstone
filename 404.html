@@ -17,8 +17,8 @@
   <img src="assets/404.jpg" data-ambient alt="404">
 </div>
 <script>
-  const ambient = new Ambient ();
-  ambient.mount ({blur:10});
+  const ambient = new Ambient ({blur: 100, retainAttributes: true, insertCSS: true});
+  ambient.mount ();
 </script>
 </body>
 </html>
