@@ -43,6 +43,51 @@
 
   /* light color */
   --light-color: #F8F8F8;
+
+  /* Spacing (Consonant) */
+  --spacing-xxxs: 4px;
+  --spacing-xxs: 8px;
+  --spacing-xs: 16px;
+  --spacing-s: 24px;
+  --spacing-m: 32px;
+  --spacing-ml: 40px;
+  --spacing-l: 48px;
+  --spacing-xl: 56px;
+  --spacing-xxl: 80px;
+  --spacing-xxxl: 104px;
+
+  /* Border-radius */
+  --input-border-radius: 4px;
+  --image-border-radius-m: 8px;
+  --image-border-radius-l: 16px;
+  --image-border-radius-xl: 24px;
+  --image-border-radius-xxl: 30px;
+  --card-border-radius-l: 12px;
+
+  /* Body (Consonant) */
+  --type-body-l-size: 20px;
+  --type-body-l-lh: 30px;
+  --type-body-m-size: 18px;
+  --type-body-m-lh: 27px;
+  --type-body-s-size: 16px;
+  --type-body-s-lh: 1.5;
+  --type-body-xs-size: 14px;
+  --type-body-xs-lh: 21px;
+  --type-body-xxs-size: 12px;
+  --type-body-xxs-lh: 1.5;
+  --type-body-xxxs-lh: 15px;
+
+  /* colors */
+  --color-black: #000;
+  --color-gray-100: rgb(10% 10% 10%);
+  --color-gray-200: rgb(20% 20% 20%);
+  --color-gray-500: rgb(50% 50% 50%);
+  --color-white: #fff;
+
+  /* drop-shadow */
+  --image-filter-drop-shadow-small: drop-shadow(
+          10px 25px 50px rgba(0 0 0 / 10%)
+  );
 }
 
 @media (width >= 900px) {
