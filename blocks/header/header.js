@@ -142,6 +142,11 @@ export default async function decorate(block) {
   toggleMenu(nav, navSections, isDesktop.matches);
   isDesktop.addEventListener('change', () => toggleMenu(nav, navSections, isDesktop.matches));
 
+  const topBar = document.createElement('div');
+  topBar.classList.add('header-top');
+  block.prepend(topBar);
+  topBar.innerHTML = '<div><a href="/sign-in">Sign In</a></div>';
+
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
