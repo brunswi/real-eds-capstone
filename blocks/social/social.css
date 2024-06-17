@@ -1,0 +1,14 @@
+.social-container {
+    list-style: none;
+    display: flex;
+    font-size: x-large;
+
+    a:any-link {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.social-container li {
+    padding: 10px;
+}

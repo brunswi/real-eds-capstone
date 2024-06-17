@@ -33,3 +33,15 @@
   object-fit: cover;
   border-radius: 50%;
 }
+
+.contributors .section {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contributors .social-container {
+  padding: 0;
+}
+
+
