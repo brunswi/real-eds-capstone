@@ -12,3 +12,9 @@ footer .footer {
 footer .footer p {
   margin: 0;
 }
+
+footer a {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, red);
+    background-clip: text;
+    color: transparent !important;
+}
