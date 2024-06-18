@@ -8,6 +8,7 @@ export default async function decorate(block) {
       block.append(title);
       const image = document.createElement('img');
       image.src = magazine.image;
+      image.alt = magazine.title;
       block.append(image);
       const description = document.createElement('p');
       description.textContent = magazine.description;
