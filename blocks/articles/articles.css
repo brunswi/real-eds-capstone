@@ -1,0 +1,23 @@
+/* CSS */
+.articles .article-button,
+.articles .article-button:after {
+    width: 150px;
+    height: 75px;
+    font-size: 16px;
+    background: #ffea00;
+    border: 0;
+    color: black;
+    outline: transparent;
+    position: relative;
+    user-select: none;
+    touch-action: manipulation;
+    border-radius: 0;
+}
+
+.articles .article-button:hover {
+    background: #FFE200;
+}
+
+.articles a:hover {
+    background: #FFE200;
+}
