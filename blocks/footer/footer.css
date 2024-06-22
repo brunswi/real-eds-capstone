@@ -1,16 +1,16 @@
 footer {
-  padding: 2rem;
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-s);
+    padding: 2rem;
+    background-color: var(--light-color);
+    font-size: var(--body-font-size-s);
 }
 
 footer .footer {
-  max-width: 1200px;
-  margin: auto;
+    max-width: 1200px;
+    margin: auto;
 }
 
 footer .footer p {
-  margin: 0;
+    margin: 0;
 }
 
 footer a {
@@ -19,18 +19,22 @@ footer a {
     color: transparent !important;
 }
 
-footer .social .social-container {
-    padding: 0;
+footer .social {
     margin: 8px 0 0;
 
-    li {
-        padding: 0 1em 0 0;
-    }
+    .social-container {
+        padding: 0;
+        margin: 0;
 
-    a {
-        background-image: unset;
-        background-clip: unset;
-        color: black !important;
+        li {
+            padding: 0 1em 0 0;
+        }
+
+        a {
+            background-image: unset;
+            background-clip: unset;
+            color: black !important;
+        }
     }
 }
 

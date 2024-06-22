@@ -16,5 +16,13 @@ export default async function decorate(block) {
   const footer = document.createElement('div');
   while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
 
+  const social = footer.getElementsByClassName("social");
+  Array.from(social).forEach((el) => {
+    const span = document.createElement('p');
+    span.textContent = "Share this website";
+    el.prepend(span);
+  })
+
   block.append(footer);
+
 }
