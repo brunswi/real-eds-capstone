@@ -18,3 +18,19 @@ footer a {
     background-clip: text;
     color: transparent !important;
 }
+
+footer .social .social-container {
+    padding: 0;
+    margin: 8px 0 0;
+
+    li {
+        padding: 0 1em 0 0;
+    }
+
+    a {
+        background-image: unset;
+        background-clip: unset;
+        color: black !important;
+    }
+}
+
