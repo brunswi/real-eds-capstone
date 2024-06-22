@@ -1,0 +1,4 @@
+user-agent: *
+allow: /
+
+sitemap: https://main--real-eds-capstone--brunswi.hlx.live/sitemap.xml
