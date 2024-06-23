@@ -267,3 +267,8 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+.article picture {
+  display: block;
+  margin-top: 2em;
+}
