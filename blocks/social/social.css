@@ -2,11 +2,11 @@
     list-style: none;
     display: flex;
     font-size: x-large;
+}
 
-    a:any-link {
-        color: black;
-        text-decoration: none;
-    }
+.social .social-container a:any-link {
+    color: black;
+    text-decoration: none;
 }
 
 .social .social-container li {

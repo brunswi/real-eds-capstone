@@ -5,10 +5,10 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+}
 
-  a:any-link {
-    color: var(--color-black);
-  }
+header .nav-wrapper a:any-link {
+  color: var(--color-black);
 }
 
 header nav {
@@ -289,8 +289,9 @@ header .header-top {
   z-index: 3;
   right: 0;
   left: 0;
-
-  a:any-link {
-    color: var(--light-color);
-  }
 }
+
+header .header-top  a:any-link {
+  color: var(--light-color) !important;
+}
+

@@ -20,18 +20,13 @@ footer a:any-link {
 
 footer .social {
     margin: 8px 0 0;
-
-    .social-container {
-        padding: 0;
-        margin: 0;
-
-        li {
-            padding: 0 1em 0 0;
-        }
-
-        a {
-            text-decoration: none;
-        }
-    }
 }
 
+footer .social .social-container {
+    padding: 0;
+    margin: 0;
+}
+
+footer .social .social-container .li {
+    padding: 0 1em 0 0;
+}
