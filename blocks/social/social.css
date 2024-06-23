@@ -1,4 +1,4 @@
-.social-container {
+.social .social-container {
     list-style: none;
     display: flex;
     font-size: x-large;
@@ -9,6 +9,6 @@
     }
 }
 
-.social-container li {
+.social .social-container li {
     padding: 10px;
 }

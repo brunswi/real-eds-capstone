@@ -1,20 +1,37 @@
 footer {
-  padding: 2rem;
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-s);
+    padding: 2rem;
+    background-color: var(--light-color);
+    font-size: var(--body-font-size-s);
 }
 
 footer .footer {
-  max-width: 1200px;
-  margin: auto;
+    max-width: 1200px;
+    margin: auto;
 }
 
 footer .footer p {
-  margin: 0;
+    margin: 0;
 }
 
-footer a {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, red);
-    background-clip: text;
-    color: transparent !important;
+footer a:any-link {
+    color: black;
+    text-decoration: underline;
 }
+
+footer .social {
+    margin: 8px 0 0;
+
+    .social-container {
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 0 1em 0 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+

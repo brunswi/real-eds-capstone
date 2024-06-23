@@ -4,4 +4,4 @@ Build a website (KTTN) using Franklin with basic website features while ensuring
 ## Environments
 - Google-Drive: https://drive.google.com/drive/folders/1GnTKN9fG345kxkhpWoIDw5PMQ_6YpRko?usp=sharing
 - Preview: https://main--real-eds-capstone--brunswi.hlx.page/
-- Live: https://main--real-eds-capstone--brunswi.hlx.live/
+- Live: https://www.kttn.org
