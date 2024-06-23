@@ -13,10 +13,9 @@ footer .footer p {
     margin: 0;
 }
 
-footer a {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, red);
-    background-clip: text;
-    color: transparent !important;
+footer a:any-link {
+    color: black;
+    text-decoration: underline;
 }
 
 footer .social {
@@ -31,9 +30,7 @@ footer .social {
         }
 
         a {
-            background-image: unset;
-            background-clip: unset;
-            color: black !important;
+            text-decoration: none;
         }
     }
 }
